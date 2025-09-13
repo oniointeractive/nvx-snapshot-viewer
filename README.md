@@ -4,7 +4,7 @@ A tiny React + TypeScript + Vite app that displays JPEG snapshots from an HTTP e
 
 It preloads each frame off-DOM and draws it onto a `<canvas>` only after the image is fully decoded, keeping the previous frame visible the whole time. Works well with endpoints like:
 
-http://<host>:8080/streams/<streamId>
+http://host:8080/streams/streamId
 
 > This app intentionally **pulls single JPEG frames** (snapshot pattern). It does not rely on MJPEG.
 
@@ -32,9 +32,9 @@ http://<host>:8080/streams/<streamId>
 # 1) Install deps
 npm i
 
-# 2) Configure the stream URL (optional, can also be passed via query params)
-cp .env.example .env
-# then edit .env
+# 2) Configure the stream URL
+eg. http://192.168.1.101:8080/streams/stream1
+
 
 # 3) Run dev server
 npm run dev
