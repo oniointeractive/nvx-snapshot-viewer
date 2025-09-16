@@ -8,6 +8,9 @@ http://host:8080/streams/streamId
 
 > This app intentionally **pulls single JPEG frames** (snapshot pattern). It does not rely on MJPEG.
 
+- **Buy SIMPL/SIMPL# module license:** https://oniointeractive.lemonsqueezy.com/buy/b0527a0f-6b2f-499f-9c7d-8a0a0cc75c0d  
+- **Download the driver and docs:** https://drive.google.com/drive/folders/1K5xf8ljW9jzQPrhTq89GThjB2Mcei3tF?usp=sharing
+
 ---
 
 ## Features
